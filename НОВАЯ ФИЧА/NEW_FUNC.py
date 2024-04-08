@@ -1,3 +1,4 @@
-main () {
+main() {	
 	runApp(MyApp());
+	Firebase.inicialaze();
 }
