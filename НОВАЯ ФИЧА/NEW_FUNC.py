@@ -1,4 +1,6 @@
 main() {	
 	runApp(MyApp());
-	Firebase.inicialaze();
+	Firebase.inicialaze(
+			configure: AppConfigure.init();
+		);
 }
